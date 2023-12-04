@@ -1,32 +1,30 @@
-# manager
+# filemanplat
 
-## 启动前准备
+> A Vue.js project
 
-启动前复制.env文件,命名为.env.local,根据后端提供的接口地址自行修改`VUE_APP_BASE_URL`参数,该参数为后端接口统一前缀,项目中如需用到,使用`process.env.VUE_APP_BASE_URL`
+## Build Setup
 
-参考文档 :  
-https://cli.vuejs.org/zh/guide/mode-and-env.html#%E6%A8%A1%E5%BC%8F
+``` bash
+# install dependencies
+npm install
 
-## 启动命令
-```
-npm run local
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
 ```
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
- 
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
